@@ -5,7 +5,26 @@ Neurodegenerative diseases are a serious issue which encompasses a myriad of com
 
 ## Data Sets used
 In this work we made use of 3 freely available PD handwriting datasets: HandPD,
-NewHandPD, and Parkinson’s drawing. with a consistant image size of 244px x 244px.
+NewHandPD, and Parkinson’s drawing. with a consistant image size of 224x224.
+[get datasets (.jpg).](https://drive.google.com/drive/folders/1cU4ucbJW76xo5Eyo1DCIQHk0I2w1fse9?usp=sharing)
+[get datasets (serialized).](https://drive.google.com/drive/folders/1QAF8T_fkaqO8TGL3ilZqVIHVCOf52fHh?usp=sharing)
+
+## [Models](https://drive.google.com/drive/folders/1PNGYk7iuq0CRqzqZsrMboHH7JBsVLDTV?usp=sharing)
+all models were implemented using:
+ >Python 3.7.13 
+ >Tensorflow and Keras 2.8.0
+trainings were done on the Google Colab (free) platform using the serealized DataSets.
+
+###Checkpoints used:
+ >checkval: monitors the validation accuracy attribute, saves the Max value (bestval.hdf5)
+ >checkacc: monitors the training accuracy attribute, saves the Max value (bestacc.hdf5)
+ >checkvloss: monitors the validation loss attribute, saves the Min value (bestvloss.hdf5)
+
+###Early stop:
+all models are given 100 as the max number of epochs,
+monitored value for early stop is training accuracy with a patience of 5.
+
+[get medels.](https://drive.google.com/drive/folders/1PNGYk7iuq0CRqzqZsrMboHH7JBsVLDTV?usp=sharing)
 
 ## GUI implementation
 Simple implementation done using the tkinter library.
