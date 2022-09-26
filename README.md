@@ -26,4 +26,6 @@ monitored value for early stop is training accuracy with a patience of 5.
 
 ## GUI implementation
 Simple implementation done using the tkinter library.
-![pdd_logo](https://user-images.githubusercontent.com/71077535/192288233-a37a5a0d-3668-491d-9a09-d5b152159554.png)
+__
+![pdd_logo](https://user-images.githubusercontent.com/71077535/192288994-a88397c6-edc4-4529-b8db-126d3ea87070.png)
+
