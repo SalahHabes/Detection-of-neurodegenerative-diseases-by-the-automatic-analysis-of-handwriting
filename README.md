@@ -11,16 +11,16 @@ NewHandPD, and Parkinson’s drawing. with a consistant image size of 224x224.
 
 ## [Models](https://drive.google.com/drive/folders/1PNGYk7iuq0CRqzqZsrMboHH7JBsVLDTV?usp=sharing)
 all models were implemented using:
- >Python 3.7.13 
- >Tensorflow and Keras 2.8.0
+ Python 3.7.13 
+ Tensorflow and Keras 2.8.0
 trainings were done on the Google Colab (free) platform using the serealized DataSets.
 
-###Checkpoints used:
- >checkval: monitors the validation accuracy attribute, saves the Max value (bestval.hdf5)
- >checkacc: monitors the training accuracy attribute, saves the Max value (bestacc.hdf5)
- >checkvloss: monitors the validation loss attribute, saves the Min value (bestvloss.hdf5)
+### Checkpoints used:
+ Checkval: monitors the validation accuracy attribute, saves the Max value (bestval.hdf5)
+ Checkacc: monitors the training accuracy attribute, saves the Max value (bestacc.hdf5)
+ Checkvloss: monitors the validation loss attribute, saves the Min value (bestvloss.hdf5)
 
-###Early stop:
+### Early stop:
 all models are given 100 as the max number of epochs,
 monitored value for early stop is training accuracy with a patience of 5.
 
