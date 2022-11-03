@@ -16,9 +16,9 @@ all models were implemented using:
 trainings were done on the Google Colab (free) platform using the serealized DataSets.
 
 ### Checkpoints used:
- Checkval: monitors the validation accuracy attribute, saves the Max value (bestval.hdf5)
- Checkacc: monitors the training accuracy attribute, saves the Max value (bestacc.hdf5)
- Checkvloss: monitors the validation loss attribute, saves the Min value (bestvloss.hdf5)
+ ####Checkval: monitors the validation accuracy attribute, saves the Max value (bestval.hdf5)
+ ####Checkacc: monitors the training accuracy attribute, saves the Max value (bestacc.hdf5)
+ ####Checkvloss: monitors the validation loss attribute, saves the Min value (bestvloss.hdf5)
 
 ### Early stop:
 all models are given 100 as the max number of epochs,
